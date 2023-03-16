@@ -1,0 +1,24 @@
+.container {
+  background-color: aqua;
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.box:nth-child(1) {
+  /*각각의 박스에 스타일 적용)*/
+  background-color: bisque;
+}
+
+.box:nth-child(2) {
+  background-color: seagreen;
+}
+
+.box:nth-child(3) {
+  background-color: tomato;
+}
